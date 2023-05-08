@@ -73,3 +73,23 @@ this Avoids spanning tree (loop prevention), since we are using layer 3 we don't
 This is the underlay of the data center.
 
 Then there is the overlay which is the virtualization part.
+
+## Questions
+
+which of the following devices cannot be connected to leaf nodes in the cisco ACI architecture?
+[] APICs
+[] application servers
+[] EPGs
+[] spine switches
+[x] leaf nodes <== leaf doesn't connect to leaf directly
+
+ACI => network automation solution from Cisco
+depends on the spine'/leaf design underlay
+
+which of the following statments are true regarding physical connections in the cisco aci architecture? (2 options)
+
+[] Spine nodes must be fully meshed
+[x] ecach spine node must connect to every leaf node
+[] an APIC must connect to at least one spine node
+[] leaf nodes must be fully meshed
+[x] each leaf node must connect to every spine node
